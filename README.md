@@ -2,7 +2,7 @@
 
 ## Files
 
-* [stones.abc](stones.abc)
+* [stones.abc](/src/stones.abc)
 * [stones.pdf](../../raw/master/objects/stones.pdf)
 * [stones-karaoke.mid](../../raw/master/objects/stones-karaoke.mid)
 * [stones-karaoke.ogg](../../raw/master/objects/stones-karaoke.ogg)
@@ -154,7 +154,4 @@ My guess at the actual note durations that seems to work and fits
 𝇛	U+1D1DB	SCANDICUS FLEXUS
 𝇜	U+1D1DC	TORCULUS RESUPINUS
 𝇝	U+1D1DD	PES SUBPUNCTIS
-
-======================================================================
-
 
