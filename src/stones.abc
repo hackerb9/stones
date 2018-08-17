@@ -1,0 +1,67 @@
+% Usage:
+%   abc2midi stones.abc
+%   timidity stones1.mid
+%
+% Or, to make sheet music with lyrics:
+%   abcm2ps stones.abc -O stones.ps
+%   ps2pdf stones.ps
+%
+X: 1
+T: Stones
+C: Iolo of Britannia
+A: Folktune native to Britannia
+Z: Transcribed by b9 from "The Book of Lore" in 2018.
+Z: Note duration guessed from pseudo-medieval notation.
+Z: For listening, MIDI program 68, Oboe, is recommended.
+M: C
+L: 1/8
+Q:"Andante"
+% This is a bit kludgy, but it gets a clef that looks kinda like the original.
+K: C octave=-1 transpose=12 clef=tenor3 stafflines=4
+% yaps specific formatting hacks
+%%vskip 24
+%%staffsep 24
+%%titlecaps
+% Pick a nice sounding instrument for MIDI playback
+%%MIDI program 6	% Harpsichord
+%%MIDI program 40	% Violin
+%%MIDI program 68	% Oboe
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:Long a-go ran the sun  on a folk who had a dream
+w:Now men asked who they were,  how they built and won-der why
+w:Oh what se-crets we'd tell  if you'd lis-ten and be still.
+w:Still we loom in the mists  as the a-ges roll a-way
+  AB c2 Bc d2 | cd e6 |
+w:And the heart and the will  and the power:
+w:That they wrought stand-ing stones  of such size.
+w:Rid the stink and the noise  from our skirts.
+w:And we say of our folk,  "They are here!"
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:They moved earth; they carved stone;  mould-ed hill and chan-neled stream
+w:What was done 'neath our shade?  What was pray-ed 'neath our skies
+w:But you have-n't¹ the clue  and per-haps you ne-ver will.
+% Book of Lore says "haven't *got* the clue", but that's too many syllables.
+w:They² built us and they died  and you'll not be know-ing why
+% Book says "*That* they built us", but that's too many syllables.
+  AB c2 dc B2 | AG (3BAB A4  |
+w:Thus³ we stand on the wide  plains of Wilt__shire.
+% Book says "that we *might* stand", but that's too many syllables.
+w:As we stood on the wyrd  plains of Wilt__shire.
+w:Mute we stand on the cold  plains of Wilt__shire.
+w:Save we stand on the bare  plains of Wilt__shire.
+%more yaps formatting
+%%vskip 216
+%%textfont Times-Roman 12
+%%text Lyrics by Gwenllian, Wyfe to Iolo
+%%textfont Times-Roman 10
+%%text ABC scriven by b9 in the year of our Lord MMXVIII
+%%vskip 72
+%%textfont Times-Roman 8
+%%text ____
+%%text 1. Book of Lore reads "haven't got the clue", but that's too many syllables.
+%%text 2. Original text: "That they built us".
+%%text 3. Original text: "That we might stand".
+
+% For a slightly less faithful, but more singable version of the
+% lyrics, please see stones-karaoke.abc.
+

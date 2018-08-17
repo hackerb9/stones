@@ -1,0 +1,79 @@
+%%titlefont Times-Roman 30
+X: 1
+%%vskip 1cm
+T: Stones
+T: Karaoke Version
+C: Iolo of Britannia (melody)
+C: Gwenllian, Wyfe to Iolo (lyrics)
+M: C
+L: 1/8
+Q:"Andante"
+K: C
+%%vskip 1cm
+%%MIDI program 6	% Harpsichord
+%%MIDI program 40	% Violin
+%%MIDI program 68	% Oboe
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:Long a-go ran the sun  on a folk who had a dream
+  AB c2 Bc d2 | cd e6 |
+w:And the heart and the will and the pow'r:
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:They moved earth; they carved stone;  mould-ed hill and chan-neled stream
+  AB c2 dc B2 | AG (3BAB A4  |
+w:Thus we stand on the wide plains of Wilt_-shire.
+x8 |
+w: 
+%
+%%MIDI program 40	% Violin
+%%MIDI program 68	% Oboe
+%%MIDI program 6	% Harpsichord
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:Now men ask who they were, how they built and won-der why
+  AB c2 Bc d2 | cd e6 |
+w:That they wrought stand-ing stones of such size.
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:What was done 'neath our shade? What was prayed be-neath our skies
+  AB c2 dc B2 | AG (3BAB A4  |
+w:As we stood on the wyrd plains of Wilt_-shire.
+x8 |
+%%MIDI program 6	% Harpsichord
+%%MIDI program 68	% Oboe
+%%MIDI program 40	% Violin
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:Oh what se-crets we'd tell  if you'd lis-ten and be still.
+  AB c2 Bc d2 | cd e6 |
+w:Rid the stink and the noise from our skirts.
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:But you have-n't the clue and per-haps you ne-ver will.
+  AB c2 dc B2 | AG (3BAB A4  |
+w:Mute we stand on the cold plains of Wilt_-shire.
+x8 |
+%%MIDI program 68	% Oboe
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:Still we loom in the mists as the a-ges roll a-way
+  AB c2 Bc d2 | cd e6 |
+w:And we say of our folk, "They are here!"
+  AB c2 dc B2 | cB A2 (3BAG E2 |
+w:They built us and they died and you'll not be know-ing why
+  AB c2 dc B2 | AG (3BAB A4  |
+w:Save we stand on the bare plains of Wilt_-shire.
+%                                                                      
+x8 |
+%[Tune: Iolo of Brittania]                              
+%[Words: Gwenllian, his wife]                                
+%[Scribe: b9]                                        
+%MMXVIII                                                                      
+
+% Usage:
+%   abc2midi stones-karaoke.abc
+%   pykaraoke stones-karaoke1.mid
+%
+% Or, to make sheet music with lyrics:
+%   abcm2ps stones-karaoke.abc -O stones-karaoke.ps
+%   ps2pdf stones-karaoke.ps
+
+% Note that this karaoke version differs from the standard stones.abc
+% file in that all four verses are played and the lyrics are shown for
+% each. The tune is exactly the same, but one lyric was altered.
+% "What was pray'ed 'neath our skies" was changed to
+% "What was prayed beneath our skies", which is easier to sing.
