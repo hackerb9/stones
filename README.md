@@ -2,16 +2,14 @@
 
 ## Files
 
-* [stones-karaoke.mid](/stones-karaoke.mid)
-* stones-karaoke.ogg
-* stones-karaoke.pdf
-* stones-karaoke.wav
-* stones.mid
-* stones.ogg
-* stones.pdf
-* stones.wav
-
-
+* [stones-karaoke.mid](../../raw/master/objects/stones-karaoke.mid)
+* [stones-karaoke.ogg](../../raw/master/objects/stones-karaoke.ogg)
+* [stones-karaoke.pdf](../../raw/master/objects/stones-karaoke.pdf)
+* [stones-karaoke.wav](../../raw/master/objects/stones-karaoke.wav)
+* [stones.mid](../../raw/master/objects/stones.mid)
+* [stones.ogg](../../raw/master/objects/stones.ogg)
+* [stones.pdf](../../raw/master/objects/stones.pdf)
+* [stones.wav](../../raw/master/objects/stones.wav)
 
 ## About
 
