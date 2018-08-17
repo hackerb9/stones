@@ -1,11 +1,16 @@
 # stones
 
-## Files
+## Most useful files
 
-* [stones.abc](/src/stones.abc)
-* [stones.pdf](../../raw/master/objects/stones.pdf)
-* [stones-karaoke.mid](../../raw/master/objects/stones-karaoke.mid)
+* [stones.abc](/src/stones.abc) The source file for generating the
+  sheetmusic and playable sound files.
+* [stones.pdf](../../raw/master/objects/stones.pdf) The sheet music.
+* [stones-karaoke.mid](../../raw/master/objects/stones-karaoke.mid) A
+  MIDI file, including lyrics, that can be used for karaoke. 
+* [stones-karaoke.wav](../../raw/master/objects/stones-karaoke.wav)
+  PCM audio file generated from MIDI.
 * [stones-karaoke.ogg](../../raw/master/objects/stones-karaoke.ogg)
+  Compressed audio file generated from WAV.
 
 ## About
 
