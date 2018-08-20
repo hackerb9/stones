@@ -20,17 +20,17 @@ includes an example song, *Stones*. The style appears to be Medieval
 "square notation" with a four line staff (𝄙), a Gregorian C Clef (𝇐),
 and odd note shapes, such as PORRECTUS (𝇙).
 
-![The Book of Lore: Music](../../raw/master/README.md.d/The%20Book%20of%20Lore:%20Music.jpg "Stones in pseudo-Medieval square notation")
+![Stones original score](../../raw/master/README.md.d/score.png "The original score of Stones")
 
 Just for fun, I transcribed the music to ABC format. From that I
 created sheet music for the song in both the treble clef (𝄞), which
 most people are familiar with, and the Gregorian C clef (𝇐) used in
-the book. The sheetmusic include the lyrics for all four verses,
-although I did have to adjust them slightly where there were simply
-too many syllables. (This might be a sign that I got the transcription
-of the music wrong.)
+the Book of Lore. The sheetmusic include the lyrics for all four
+verses, although I did have to adjust them slightly where there were
+simply too many syllables. (This might be a sign that I got the
+transcription of the music wrong.)
 
-## Transcription halfway (notes but not durations)
+## Halfway transcription (notes but not durations)
 
 𝇐 +C Clef+
 
@@ -54,38 +54,16 @@ of the music wrong.)
 
 Key: 
 
-Capital letters are one octave lower.
-
-𝆸̅ an *episema* over a *brevis* quarter note (*episema* means hold a little longer)
-
-• means there is a dot after the note (1 beat longer)
-
-|| means there are vertical bars around the note
+* Capital letters are one octave lower.
 
 
-## If Britannian Music was Square Notation? (Hint: It's not.)
-
-If I understand correctly, *longa* (𝆷), a square with a stem attach
-and looks like our quarter note (𝅘𝅥), should be equal to a half note or
-a dotted half note depending on the context. (It has something to do
-with dividing by threes that I definitely do *not* understand).
-
-But, let's pretend a *longa* is exactly a half note.
-
-A *brevis* (𝆸), half as long as a *longa*, would be a quarter
-note (𝅘𝅥)
-
-A *semibrevis* (𝆺), half as long as a *brevis* (𝆸), would be an eighth
-note (𝅘𝅥𝅮). 
-
-Although they don't appear in this piece, a *maxima* (𝆶) is twice as
-long as a *longa* (𝆷) and would be a whole note (𝅝), while a *minima*
-(𝆺𝅥) is half as long as a a semibrevis (𝆺) and thus a sixteenth note (𝅘𝅥𝅯).
-
-Any note with a *episema* line over it is held a little longer.
-
-A dot after a note means it is held one full beat longer.
-
+* • means there is a dot after the note (1 beat longer)
+* || means there are vertical bars around the note
+* 𝇕 *Clivis* (two notes)
+* 𝆸 *Brevis* (one note)
+* 𝆸̅ an *Episema* over a *Brevis*. (*Episema* means hold a little longer)
+* 𝇙 *Porrectus* (three notes)
+* 𝆺 *Semi-brevis* (one note)
 
 ## Britannian Music is not Square Notation.
 
@@ -108,17 +86,6 @@ have an episema line over it (𝆸̅)?
 * Stacked notes that would be hard for a modern person to read, such
 as PODATUS (𝇔), are absent.
 
-## Interpretation as Medieval square notation
-
-𝇕 *Clivis* (two quarter notes)
-
-𝆸 *Brevis* (quarter note)
-
-𝇙 *Porrectus* (three slurred quarter notes)
-
-𝆺 *Semi-brevis* (eighth note)
-
-
 ## Britannian notation
 
 My guess at the actual note durations that seems to work and fits
@@ -135,9 +102,46 @@ My guess at the actual note durations that seems to work and fits
 *Dotted Semi-brevis* 𝆺• → 𝅗𝅥𝅭 Dotted half note
 
 
+
+
+## But, what would this sound like as Medieval Square Notation? 
+
+If I understand correctly, *longa* (𝆷), a square with a stem attach
+and looks like our quarter note (𝅘𝅥), should be equal to a either half
+note or a dotted half note depending on the context. (It has something
+to do with dividing by threes that I definitely do *not* understand).
+
+But, let's pretend a *longa* is always exactly a half note.
+
+A *brevis* (𝆸), half as long as a *longa*, would be a quarter
+note (𝅘𝅥)
+
+A *semibrevis* (𝆺), half as long as a *brevis* (𝆸), would be an eighth
+note (𝅘𝅥𝅮). 
+
+Although they don't appear in this piece, a *maxima* (𝆶) is twice as
+long as a *longa* (𝆷) and would be a whole note (𝅝), while a *minima*
+(𝆺𝅥) is half as long as a a semibrevis (𝆺) and thus a sixteenth note (𝅘𝅥𝅯).
+
+Any note with a *episema* line over it is held a little longer.
+
+A dot after a note means it is held one full beat longer.
+
+## Interpretation as Medieval square notation
+
+𝇕 *Clivis* (two quarter notes)
+
+𝆸 *Brevis* (quarter note)
+
+𝇙 *Porrectus* (three slurred quarter notes)
+
+𝆺 *Semi-brevis* (eighth note)
+
+
+
 ## Appendices
-A. [Handy Unicode characters for Medieval square notation](../../raw/master/objects/README.md.d/medieval.md)
-A. [Handy Unicode characters for music in general](../../raw/master/objects/README.md.d/musical.md)
+a. [Handy Unicode characters for Medieval square notation](../../raw/master/objects/README.md.d/medieval.md)
+a. [Handy Unicode characters for music in general](../../raw/master/objects/README.md.d/musical.md)
 
 A. [Page from 'The Book of Lore: Music'](../../raw/master/README.md.d/The%20Book%20of%20Lore:%20Music.jpg "Copyright 1988 Lord British & Origin")
 
