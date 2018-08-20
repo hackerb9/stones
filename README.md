@@ -20,7 +20,7 @@ includes an example song, *Stones*. The style appears to be Medieval
 "square notation" with a four line staff (𝄙), a Gregorian C Clef (𝇐),
 and odd note shapes, such as PORRECTUS (𝇙).
 
-![The Book of Lore: Music](../../raw/master/The%20Book%20of%20Lore:%20Music.jpg "Stones in pseudo-Medieval square notation")
+![The Book of Lore: Music](../../raw/master/README.md.d/The%20Book%20of%20Lore:%20Music.jpg "Stones in pseudo-Medieval square notation")
 
 Just for fun, I transcribed the music to ABC format. From that I
 created sheet music for the song in both the treble clef (𝄞), which
@@ -29,6 +29,39 @@ the book. The sheetmusic include the lyrics for all four verses,
 although I did have to adjust them slightly where there were simply
 too many syllables. (This might be a sign that I got the transcription
 of the music wrong.)
+
+## Transcription halfway (notes but not durations)
+
+𝇐 +C Clef+
+
+𝇕AB 𝆸̅c 𝇕dc 𝆸̅B 𝇕cB 𝆸̅A 𝇙BAG 𝆺E
+
+𝄒 +breath mark+
+
+𝇕AB 𝆸̅c 𝇕Bc 𝆸̅d 𝇕cd 𝆺e•
+
+𝇁 +Longa perfecta rest+
+
+(*custos* at end of staff to foreshadow 'A' on next line.)
+
+𝇐 +C Clef+
+
+𝇕AB 𝆸̅c 𝇕dc 𝆸̅B 𝇕cB 𝆸̅A 𝇙BAG 𝆺E
+
+𝄒 +breath mark+
+
+𝇕AB 𝆸̅c 𝇕dc 𝆸̅b 𝇕AG𝇙BAB  𝆺|A|•
+
+Key: 
+
+Capital letters are one octave lower.
+
+𝆸̅ an *episema* over a *brevis* quarter note (*episema* means hold a little longer)
+
+• means there is a dot after the note (1 beat longer)
+
+|| means there are vertical bars around the note
+
 
 ## If Britannian Music was Square Notation? (Hint: It's not.)
 
@@ -75,38 +108,6 @@ have an episema line over it (𝆸̅)?
 * Stacked notes that would be hard for a modern person to read, such
 as PODATUS (𝇔), are absent.
 
-## Transcription
-
-𝇐 C Clef
-
-𝇕AB 𝆸̅c 𝇕dc 𝆸̅B 𝇕cB 𝆸̅A 𝇙BAG 𝆺E
-
-+breath mark+
-
-𝇕AB 𝆸̅c 𝇕Bc 𝆸̅d 𝇕cd 𝆺e•
-
-𝇁 +Longa perfecta rest+
-
-(*custos* at end of staff to foreshadow 'A' on next line.)
-
-𝇐 C Clef
-
-𝇕AB 𝆸̅c 𝇕dc 𝆸̅B 𝇕cB 𝆸̅A 𝇙BAG 𝆺E
-
-+breath mark+
-
-𝇕AB 𝆸̅c 𝇕dc 𝆸̅b 𝇕AG𝇙BAB  𝆺|A|•
-
-Key: 
-
-Capital letters are one octave lower.
-
-𝆸̅ an *episema* over a *brevis* quarter note (*episema* means hold a little longer)
-
-• means there is a dot after the note (1 beat longer)
-
-|| means there are vertical bars around the note
-
 ## Interpretation as Medieval square notation
 
 𝇕 *Clivis* (two quarter notes)
@@ -129,34 +130,16 @@ My guess at the actual note durations that seems to work and fits
 
 *Porrectus* 𝇙 → Beamed triplet (three eighth notes played in the time of two)
 
-*Semi-brevis* 𝆺 → 𝅗𝅥𝅭 Half note
+*Semi-brevis* 𝆺 → 𝅗𝅥 Half note
 
 *Dotted Semi-brevis* 𝆺• → 𝅗𝅥𝅭 Dotted half note
 
 
-## Appendix: Some Unicode characters for Medieval square notation
+## Appendices
+A. [Handy Unicode characters for Medieval square notation](README.md.d/medieval.md)
+A. [Handy Unicode characters for music in general](README.md.d/musical.md)
 
-𝆶	U+1D1B6	MAXIMA
-𝆷	U+1D1B7	LONGA
-𝆸	U+1D1B8	BREVIS
-𝆺	U+1D1BA	SEMIBREVIS BLACK
-𝆺𝅥	U+1D1BC	MINIMA BLACK
-𝇃	U+1D1C3	BREVIS REST
-𝇄	U+1D1C4	SEMIBREVIS REST
-𝇅	U+1D1C5	MINIMA REST
-𝇆	U+1D1C6	SEMIMINIMA REST
-𝇐	U+1D1D0	GREGORIAN C CLEF
-𝇑	U+1D1D1	GREGORIAN F CLEF
-𝇒	U+1D1D2	SQUARE B
-𝇓	U+1D1D3	VIRGA
-𝇔	U+1D1D4	PODATUS
-𝇕	U+1D1D5	CLIVIS
-𝇖	U+1D1D6	SCANDICUS
-𝇗	U+1D1D7	CLIMACUS
-𝇘	U+1D1D8	TORCULUS
-𝇙	U+1D1D9	PORRECTUS
-𝇚	U+1D1DA	PORRECTUS FLEXUS
-𝇛	U+1D1DB	SCANDICUS FLEXUS
-𝇜	U+1D1DC	TORCULUS RESUPINUS
-𝇝	U+1D1DD	PES SUBPUNCTIS
+A. [Page from 'The Book of Lore: Music'](../../raw/master/README.md.d/The%20Book%20of%20Lore:%20Music.jpg "Copyright 1988 Lord British & Origin")
+
+
 
