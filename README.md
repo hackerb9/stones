@@ -119,7 +119,7 @@ as PODATUS (𝇔), are absent.
 𝆺 *Semi-brevis* (eighth note)
 
 
-## Brittanian notation
+## Britannian notation
 
 My guess at the actual note durations that seems to work and fits
 (mostly) within 4/4 measures:
