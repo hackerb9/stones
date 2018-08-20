@@ -136,8 +136,8 @@ My guess at the actual note durations that seems to work and fits
 
 
 ## Appendices
-A. [Handy Unicode characters for Medieval square notation](README.md.d/medieval.md)
-A. [Handy Unicode characters for music in general](README.md.d/musical.md)
+A. [Handy Unicode characters for Medieval square notation](../../raw/master/objects/README.md.d/medieval.md)
+A. [Handy Unicode characters for music in general](../../raw/master/objects/README.md.d/musical.md)
 
 A. [Page from 'The Book of Lore: Music'](../../raw/master/README.md.d/The%20Book%20of%20Lore:%20Music.jpg "Copyright 1988 Lord British & Origin")
 
