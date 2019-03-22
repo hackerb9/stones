@@ -4,16 +4,15 @@ A faithful transcription from the music printed in the Book of Lore to modern sh
 
 ## Most useful files
 
-* [stones.abc](/src/stones.abc) The source file for generating the
-  sheetmusic and playable sound files.
-* [stones.pdf](../../raw/master/objects/stones.pdf) The sheet music, Gregorian C Clef, same as Book of Lore.
-* [stones-karaoke.pdf](../../raw/master/objects/stones-karaoke.pdf) The sheet music, Treble Clef, for modern musicians.
-* [stones-karaoke.mid](../../raw/master/objects/stones-karaoke.mid) A
-  MIDI file, including lyrics, that can be used for karaoke. 
-* [stones-karaoke.wav](../../raw/master/objects/stones-karaoke.wav)
-  PCM audio file generated from MIDI.
+* [stones.abc](/src/stones.abc) 
+  The source file for generating the sheetmusic and playable sound files.
+* [stones.pdf](../../raw/master/objects/stones.pdf) 
+  The sheet music, Gregorian C Clef, same as Book of Lore.
+  (Or try [Treble Clef](../../raw/master/objects/stones-karaoke.pdf)).
+* [stones-karaoke.mid](../../raw/master/objects/stones-karaoke.mid)
+  A MIDI file, including lyrics, that can be used for karaoke. 
 * [stones-karaoke.ogg](../../raw/master/objects/stones-karaoke.ogg)
-  Compressed audio file generated from WAV.
+  Compressed audio file generated from MIDI.
 
 ## About
 
@@ -35,9 +34,8 @@ verses, although I did have to adjust them slightly where there were
 simply too many syllables. (This might be a sign that I got the
 transcription of the music wrong.)
 
-
-* [Sheetmusic in modern Treble clef](../../raw/master/objects/stones-karaoke.pdf)
 * [Sheetmusic in Gregorian C clef](../../raw/master/objects/stones.pdf)
+* [Sheetmusic in modern Treble clef](../../raw/master/objects/stones-karaoke.pdf)
 
 # Transcription
 
