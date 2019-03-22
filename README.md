@@ -14,6 +14,10 @@ A faithful transcription from the music printed in the Book of Lore to modern sh
 * [stones-karaoke.ogg](../../raw/master/objects/stones-karaoke.ogg)
   Compressed audio file generated from MIDI.
 
+## Usage
+    make
+Source ABC files in [src](/src) create PDF, MIDI, WAV, and OGG in [objects](/objects). 
+
 ## About
 
 The video game *Ultima V* comes with a printed *Book of Lore* that
