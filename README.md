@@ -1,5 +1,7 @@
 # stones
 
+A faithful transcription from the music printed in the Book of Lore to modern sheetmusic, audio files, and karaoke.
+
 ## Most useful files
 
 * [stones.abc](/src/stones.abc) The source file for generating the
@@ -22,41 +24,43 @@ and odd note shapes, such as PORRECTUS (𝇙).
 
 ![Stones original score](../../raw/master/README.md.d/score.png "The original score of Stones")
 
-Just for fun, I transcribed the music to ABC format. From that I
+Just for fun, I transcribed the music to 
+[ABC notation](http://abcnotation.com/ "Oft used for traditional and folk music"). 
+From that I
 created sheet music for the song in both the treble clef (𝄞), which
 most people are familiar with, and the Gregorian C clef (𝇐) used in
-the Book of Lore. The sheetmusic include the lyrics for all four
+the Book of Lore. The sheetmusic includes the lyrics for all four
 verses, although I did have to adjust them slightly where there were
 simply too many syllables. (This might be a sign that I got the
 transcription of the music wrong.)
 
+
+* [Sheetmusic in modern Treble clef](../../raw/master/objects/stones-karaoke.pdf)
+* [Sheetmusic in Gregorian C clef](../../raw/master/objects/stones.pdf)
+
+# Transcription
+
+Below is a discussion of how I transcribed the music.
+
 ## Halfway transcription (notes but not durations)
 
-𝇐 +C Clef+
+Here is a direct transcription from the original score with no assumption about note duration.
 
-𝇕AB 𝆸̅c 𝇕dc 𝆸̅B 𝇕cB 𝆸̅A 𝇙BAG 𝆺E
+    𝇐 +C Clef+
+    𝇕AB 𝆸̅c 𝇕dc 𝆸̅B 𝇕cB 𝆸̅A 𝇙BAG 𝆺E
+    𝄒 +breath mark+
+    𝇕AB 𝆸̅c 𝇕Bc 𝆸̅d 𝇕cd 𝆺e•
+    𝇁 +Longa perfecta rest+
+    (*custos* at end of staff to foreshadow 'A' on next line.)
 
-𝄒 +breath mark+
-
-𝇕AB 𝆸̅c 𝇕Bc 𝆸̅d 𝇕cd 𝆺e•
-
-𝇁 +Longa perfecta rest+
-
-(*custos* at end of staff to foreshadow 'A' on next line.)
-
-𝇐 +C Clef+
-
-𝇕AB 𝆸̅c 𝇕dc 𝆸̅B 𝇕cB 𝆸̅A 𝇙BAG 𝆺E
-
-𝄒 +breath mark+
-
-𝇕AB 𝆸̅c 𝇕dc 𝆸̅b 𝇕AG𝇙BAB  𝆺|A|•
+    𝇐 +C Clef+
+    𝇕AB 𝆸̅c 𝇕dc 𝆸̅B 𝇕cB 𝆸̅A 𝇙BAG 𝆺E
+    𝄒 +breath mark+
+    𝇕AB 𝆸̅c 𝇕dc 𝆸̅b 𝇕AG𝇙BAB  𝆺|A|•
 
 Key: 
 
 * Capital letters are one octave lower.
-
-
 * • means there is a dot after the note (1 beat longer)
 * || means there are vertical bars around the note
 * 𝇕 *Clivis* (two notes)
@@ -67,7 +71,7 @@ Key:
 
 ## Britannian Music is not Square Notation.
 
-Whie the score appears to be Medieval, I think this score is more
+Whie the score appears to be Medieval Square Notation, I think this score is more
 similar to our modern music notation for these reasons:
 
 * The Medieval *clivis* (𝇕) represented a single syllable sung as two
@@ -80,7 +84,7 @@ looks like a whole note to us (𝅝) is actually a *semibrevis* (𝆺), the
 Medieval eighth note. It doesn't make sense that this tune's final
 note would be a dotted eighth!
 
-* Also, why are there no longas (𝆷)? And why would every brevis (𝆸)
+* If this was Square Notation, why are there no longas (𝆷)? And why would every brevis (𝆸)
 have an episema line over it (𝆸̅)?
 
 * Stacked notes that would be hard for a modern person to read, such
@@ -101,8 +105,17 @@ My guess at the actual note durations that seems to work and fits
 
 *Dotted Semi-brevis* 𝆺• → 𝅗𝅥𝅭 Dotted half note
 
+Using those presumptions, I created the [stones.abc](/src/stones.abc) 
+file which contains the music and lyrics. Additionally, the stones.abc file
+changes the staff [when printed to pdf](../../raw/master/objects/stones.pdf) 
+so that note placement is exactly as set in the score from the Book of Lore.
 
+ABC format looks like this, by the way:
 
+    AB c2 dc B2 | cB A2 (3BAG E2 |
+    AB c2 Bc d2 | cd e6 |
+    AB c2 dc B2 | cB A2 (3BAG E2 |
+    AB c2 dc B2 | AG (3BAB A4 |
 
 ## But, what would this sound like as Medieval Square Notation? 
 
@@ -137,9 +150,9 @@ A dot after a note means it is held one full beat longer.
 
 𝆺 *Semi-brevis* (eighth note)
 
+[To do in the future: create .abc file using those lengths]
 
-
-## Appendices
+# Appendices
 * [Page from 'The Book of Lore: Music'](../../raw/master/README.md.d/The%20Book%20of%20Lore:%20Music.png "Copyright 1988 Lord British & Origin")
 * [Many, many other interpretations of Stones](http://joxter.net/ "The Stones Archive")
 * [Handy Unicode characters for Medieval square notation](../../raw/master/objects/README.md.d/medieval.md)
