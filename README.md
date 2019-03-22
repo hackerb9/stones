@@ -140,7 +140,7 @@ A dot after a note means it is held one full beat longer.
 
 
 ## Appendices
-a. [Page from 'The Book of Lore: Music'](../../raw/master/README.md.d/The%20Book%20of%20Lore:%20Music.png "Copyright 1988 Lord British & Origin")
-a. [Many, many other interpretations of Stones](http://joxter.net/ The Stones Archive)
-a. [Handy Unicode characters for Medieval square notation](../../raw/master/objects/README.md.d/medieval.md)
-a. [Handy Unicode characters for music in general](../../raw/master/objects/README.md.d/musical.md)
+* [Page from 'The Book of Lore: Music'](../../raw/master/README.md.d/The%20Book%20of%20Lore:%20Music.png "Copyright 1988 Lord British & Origin")
+* [Many, many other interpretations of Stones](http://joxter.net/ "The Stones Archive")
+* [Handy Unicode characters for Medieval square notation](../../raw/master/objects/README.md.d/medieval.md)
+* [Handy Unicode characters for music in general](../../raw/master/objects/README.md.d/musical.md)
