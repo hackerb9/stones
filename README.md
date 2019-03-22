@@ -6,7 +6,8 @@ A faithful transcription from the music printed in the Book of Lore to modern sh
 
 * [stones.abc](/src/stones.abc) The source file for generating the
   sheetmusic and playable sound files.
-* [stones.pdf](../../raw/master/objects/stones.pdf) The sheet music.
+* [stones.pdf](../../raw/master/objects/stones.pdf) The sheet music, Gregorian C Clef, same as Book of Lore.
+* [stones-karaoke.pdf](../../raw/master/objects/stones-karaoke.pdf) The sheet music, Treble Clef, for modern musicians.
 * [stones-karaoke.mid](../../raw/master/objects/stones-karaoke.mid) A
   MIDI file, including lyrics, that can be used for karaoke. 
 * [stones-karaoke.wav](../../raw/master/objects/stones-karaoke.wav)
