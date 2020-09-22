@@ -1,6 +1,7 @@
 # stones
 
-A faithful transcription from the music printed in the Book of Lore to modern sheetmusic, audio files, and karaoke.
+A faithful transcription from the music printed in the Book of Lore to
+modern sheetmusic, audio files, and karaoke.
 
 ## Most useful files
 
@@ -11,6 +12,8 @@ A faithful transcription from the music printed in the Book of Lore to modern sh
   (Or try [Treble Clef](../../raw/master/objects/stones-karaoke.pdf)).
 * [stones-karaoke.mid](../../raw/master/objects/stones-karaoke.mid)
   A MIDI file, including lyrics, that can be used for karaoke. 
+* [stones-karaoke.wav](../../raw/master/objects/stones-karaoke.wav)
+  Uncompressed audio file generated from MIDI.
 * [stones-karaoke.ogg](../../raw/master/objects/stones-karaoke.ogg)
   Compressed audio file generated from MIDI.
 
@@ -158,5 +161,5 @@ A dot after a note means it is held one full beat longer.
 # Appendices
 * [Page from 'The Book of Lore: Music'](../../raw/master/README.md.d/The%20Book%20of%20Lore:%20Music.png "Copyright 1988 Lord British & Origin")
 * [Many, many other interpretations of Stones](http://joxter.net/ "The Stones Archive")
-* [Handy Unicode characters for Medieval square notation](../../raw/master/objects/README.md.d/medieval.md)
-* [Handy Unicode characters for music in general](../../raw/master/objects/README.md.d/musical.md)
+* [Handy Unicode characters for Medieval square notation](../../raw/master/README.md.d/medieval.txt)
+* [Handy Unicode characters for music in general](../../raw/master/README.md.d/musical.txt)
